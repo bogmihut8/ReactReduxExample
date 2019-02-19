@@ -5,25 +5,55 @@ import { Parallax } from 'react-parallax';
 
 const Home = () => (
     <div>
-        <PageHeader color="is-info" title="ReactRedux Website">
-            Minimal and responsive website using <strong>React</strong> as the main framework, together with <strong>Redux</strong> state manager, a css framework <strong>Bulma</strong> with the content provided by <strong>Contentful</strong>  
+        <PageHeader color="is-info" title="React Website">
+            Minimal and responsive website using <strong>React</strong> as the main framework and a css framework <strong>Bulma</strong> with the content provided by <strong>Contentful</strong>  
         </PageHeader>
         
         <div className="home columns">
             <div className="column has-text-centered">
                 <h2><i className="fas fa-code" style={{ marginRight: '5px' }}></i>Projects</h2>
-                <p>Ne vix amet possim impedit, viderer incorrupte quo in. Sea ut falli aeterno debitis, commodo concludaturque id pri. </p>
+                <p>Ne vix amet possim impedit, viderer incorrupte quo in. Sea ut falli aeterno debitis, commodo concludaturque id pri viderer incorrupte quo in. </p>
+                <p>Ne vix amet possim impedit, viderer incorrupte quo in. Sea ut falli aeterno debitis, commodo concludaturque. </p>
                 <Link className="button is-center is-link" to="/projects">See more</Link>
             </div>
             <div className="column has-text-centered">
-                <h2><i className="far fa-address-card" style={{ marginRight: '5px' }}></i>Resume</h2>
-                <p>Admodum euripidis cu vel, an cum nihil commodo habemus. Porro atqui erant nec ei. Quem odio malorum an sea.</p>
-                <Link className="button is-center is-link" to="/resume">See more</Link>
+                <h2><i className="fa fa-wrench" style={{ marginRight: '5px' }}></i>Technologies</h2>
+                <p>Ne vix amet possim impedit, viderer incorrupte quo in. Sea ut falli aeterno debitis, commodo concludaturque id pri viderer incorrupte quo in. </p>
+                <p>Ne vix amet possim impedit, viderer incorrupte quo in. Sea ut falli aeterno debitis, commodo concludaturque. </p>
+                <Link className="button is-center is-link" to="/technologies">See more</Link>
             </div>
             <div className="column has-text-centered">
-                <h2><i className="far fa-rss-square" style={{ marginRight: '5px' }}></i>Blog</h2>
-                <p>Mel at vitae audire probatus, cu cum omnes dolores ocurreret. Nam te albucius omnesque, pri at ridens option.</p>
+                <h2><i className="fab fa-wordpress" style={{ marginRight: '5px' }}></i>Blog</h2>
+                <p>Ne vix amet possim impedit, viderer incorrupte quo in. Sea ut falli aeterno debitis, commodo concludaturque id pri viderer incorrupte quo in. </p>
+                <p>Ne vix amet possim impedit, viderer incorrupte quo in. Sea ut falli aeterno debitis, commodo concludaturque. </p>
                 <Link className="button is-center is-link" to="/blog">See more</Link>
+            </div>
+            <div className="column has-text-centered">
+                <h2><i className="fas fa-male" style={{ marginRight: '5px' }}></i>Contact</h2>
+                <p>Ne vix amet possim impedit, viderer incorrupte quo in. Sea ut falli aeterno debitis, commodo concludaturque id pri viderer incorrupte quo in. </p>
+                <p>Ne vix amet possim impedit, viderer incorrupte quo in. Sea ut falli aeterno debitis, commodo concludaturque. </p>
+                <Link className="button is-center is-link" to="/contact">See more</Link>
+            </div>
+        </div>
+        
+        <div className="columns tech-icons">
+            <div className="column has-text-centered">
+                <i className="fab fa-html5" style={{ marginRight: '5px' }}></i>
+            </div>
+            <div className="column has-text-centered">
+                <i className="fab fa-css3" style={{ marginRight: '5px' }}></i>
+            </div>
+            <div className="column has-text-centered">
+                <i className="fab fa-js-square" style={{ marginRight: '5px' }}></i>
+            </div>
+            <div className="column has-text-centered">
+                <i className="fab fa-react" style={{ marginRight: '5px' }}></i>
+            </div>
+            <div className="column has-text-centered">
+                <i className="fab fa-vuejs" style={{ marginRight: '5px' }}></i>
+            </div>
+            <div className="column has-text-centered">
+                <i className="fab fa-node" style={{ marginRight: '5px' }}></i>
             </div>
         </div>
         

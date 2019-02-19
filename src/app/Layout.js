@@ -12,10 +12,10 @@ import Router from './layout/Router'
 const Layout = ({ children }) => (
   <Site>
     <Helmet
-      title="ReactRedux"
+      title="React"
       meta={[
-        { name: 'description', content: 'Just a simple react redux website' },
-        { name: 'keywords', content: 'resume, blog, porfolio' },
+        { name: 'description', content: 'Just a simple react website' },
+        { name: 'keywords', content: 'technologies, blog, porfolio' },
       ]}
       script={[
         { 'src': 'https://use.fontawesome.com/releases/v5.0.4/js/all.js'},

@@ -32,8 +32,10 @@ class Blog extends React.Component {
                 As the title says, a <strong>Blog</strong> full of amazing <strong>Content</strong>
             </PageHeader>
             {
-                this.state.posts.map( ({fields}, i) =>
-                    <BlogItem key={i} {...fields} />
+                this.state.posts.map( ({fields}, i) => {
+                    if(fields.type === "blog")
+                        return <BlogItem key={i} {...fields} />
+                    }
                 )
             }
             </div>
